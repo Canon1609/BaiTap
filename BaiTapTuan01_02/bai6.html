@@ -7,17 +7,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<style type="text/css">
+<!-- <style type="text/css">
     table,
     th,
     td {
         border: 5px solid rgb(245, 206, 159);
         border-collapse: collapse;
     }
-</style>
+</style> -->
+<!-- tr :hàng; 
+    th: ô có tiêu đề bên trong hàng chữ đậm; 
+    td:xác định ô bên trong hàng chữ nhạt-->
 
 <body>
-    <table width=" 200px " ; height="200px " ;>
+    <table border="5px" width=" 200px " ; height="200px " ;>
         <tr>
             <th colspan="1 ">1</th>
             <th colspan="3 ">2</th>
@@ -38,6 +41,139 @@
             <td bgcolor="yellow ">10</td>
         </tr>
 
+    </table>
+
+
+    <p>With cellpadding</p>
+    <table border="5px" width=" 50px " ;height="50px " ;cellpadding="10px">
+        <tr>
+            <th>6.470</th>
+            <th>6.470</th>
+        </tr>
+        <tr>
+            <th>6.470</th>
+            <th>6.470</th>
+        </tr>
+
+    </table>
+
+    <p>Tabble with spanning row</p>
+    <table border="5px">
+        <tr>
+            <th>6.470</th>
+            <th>6.470</th>
+        </tr>
+        <tr>
+            <th rowspan="2">6.470</th>
+            <td>6.470</td>
+        </tr>
+        <tr>
+            <td>6.470</td>
+        </tr>
+    </table>
+
+    <table border="5px" width=" 300px " ; height="200px " ;>
+        <caption>
+            <font color="violet">NUMBERS 1-5 in VARIOUS LANGUAGES</font>
+        </caption>
+        <tr>
+            <th></th>
+            <th colspan="3"><u>English</u></th>
+            <th colspan="3"><u>Espanol</u></th>
+            <th colspan="3"><u>Francais</u></th>
+            <th colspan="3"><u>Italiano</u></th>
+            <th colspan="3"><u>Deutsch</u></th>
+        </tr>
+        <tr>
+            <th>1</th>
+            <th colspan="3">
+                <font color="blue"><i>one</i></font>
+            </th>
+            <th colspan="3">
+                <font color="blue"><i>uno</i></font>
+            </th>
+            <th colspan="3">
+                <font color="blue"><i>un</i></font>
+            </th>
+            <th colspan="3">
+                <font color="blue"><i>uno</i></font>
+            </th>
+            <th colspan="3">
+                <font color="blue"><i>eins</i></font>
+            </th>
+        </tr>
+        <tr>
+            <th>2</th>
+            <th colspan="3">
+                <font color="blue"><i>two</i></font>
+            </th>
+            <th colspan="3">
+                <font color="blue"><i>dos</i></font>
+            </th>
+            <th colspan="3">
+                <font color="blue"><i>deux</i></font>
+            </th>
+            <th colspan="3">
+                <font color="blue"><i>due</i></font>
+            </th>
+            <th colspan="3">
+                <font color="blue"><i>zwei</i></font>
+            </th>
+        </tr>
+        <tr>
+            <th>3</th>
+            <th colspan="3">
+                <font color="blue"><i>three</i></font>
+            </th>
+            <th colspan="3">
+                <font color="blue"><i>tres</i></font>
+            </th>
+            <th colspan="3">
+                <font color="blue"><i>trois</i></font>
+            </th>
+            <th colspan="3">
+                <font color="blue"><i>tre</i></font>
+            </th>
+            <th colspan="3">
+                <font color="blue"><i>drei</i></font>
+            </th>
+        </tr>
+        <tr>
+            <th>4</th>
+            <th colspan="3">
+                <font color="blue"><i>four</i></font>
+            </th>
+            <th colspan="3">
+                <font color="blue"><i>cuatro</i></font>
+            </th>
+            <th colspan="3">
+                <font color="blue"><i>quatre</i></font>
+            </th>
+            <th colspan="3">
+                <font color="blue"><i>quattro</i></font>
+            </th>
+            <th colspan="3">
+                <font color="blue"><i>vier</i></font>
+            </th>
+        </tr>
+        <tr>
+            <th>5</th>
+            <th colspan="3">
+                <font color="blue"><i>five</i></font>
+            </th>
+            <th colspan="3">
+                <font color="blue"><i>cinco</i></font>
+            </th>
+            <th colspan="3">
+                <font color="blue"><i>cinq</i></font>
+            </th>
+            <th colspan="3">
+                <font color="blue"><i>cinque</i></font>
+            </th>
+            <th colspan="3">
+                <font color="blue"><i>funf</i></font>
+            </th>
+        </tr>
     </table>
 
 </body>
