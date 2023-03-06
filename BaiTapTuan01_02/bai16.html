@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="description" content="Free Web tutorial">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="Hege Refsnes">
+    <title>Document</title>
+    <style>
+        #main {
+            height: 500px;
+            width: 400px;
+            box-shadow: 0 0 20px grey;
+        }
+        
+        #degsin {
+            padding-left: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <div id="degsin">
+            <h1>Travel reservation form</h1>
+            <h3>* denotes mandotory</h3>
+            <form action="#">
+                <div id="full_name">
+                    <label for="input_name">Full name*:</label>
+                    <br>
+                    <input type="text" name="name" id="input_name" placeholder="FirstName LastName">
+                </div>
+                <div id="email">
+                    <label for="input_email">Email address*:</label>
+                    <br>
+                    <input type="text" name="email" id="input_email" placeholder="EMAIL_ADDRESS">
+                </div>
+                <div id="select">
+                    <label for="Select_option">Select Tour Packagre*:</label>
+                    <br>
+                    <select name="select" id="select_option">
+                        <option value="">Goa</option>
+                        <option value="">Zalo</option>
+                        <option value="">Facebook</option>
+                    </select>
+                </div>
+                <div id="date">
+                    <label for="input_date">Arrival date*</label>
+                    <br>
+                    <input type="date" name="date" id="input_date">
+                </div>
+                <div id="phone">
+                    <label for="input_number">Number of persons*</label>
+                    <br>
+                    <input type="text" placeholder="UNKNOWN_TYPE" id="input_number">
+                </div>
+                <div id="checkbox">
+                    <label for="input_checkbox">What would yu want to avail?*</label>
+                    <br>
+                    <label for="checkbox1">Boarding</label>
+                    <input type="checkbox" name="" id="checkbox1"><br>
+                    <label for="checkbox2">Fooding</label>
+                    <input type="checkbox" name="" id="checkbox2"><br>
+                    <label for="checkbox3">Sight seeing</label>
+                    <input type="checkbox" name="" id="checkbox3">
+                </div>
+                <div id="Discount">
+                    <label for="input_text">Discount Coupon code:</label><br>
+                    <input type="text" placeholder="UNKNOWN_TYPE">
+                </div>
+                <div id="terms">
+                    <label for="input_radio">Terms and condition*</label><br>
+                    <input type="radio" name="" id="input_radio1"><label for="input_radio1">I agree</label>
+                    <input type="radio" name="" id="input_radio2"><label for="input_radio2">I disagreee</label>
+                </div>
+                <input type="submit" name="" id="submit" value="Complete reservation">
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
