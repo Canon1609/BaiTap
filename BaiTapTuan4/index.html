@@ -5,147 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meeting title</title>
-    <style>
-        #wrapper {
-            display: flex;
-            justify-content: center;
-        }
-        
-        #container {
-            display: flex;
-            justify-content: space-between;
-            width: 1440px;
-        }
-        
-        #right {
-            width: 440px;
-            background-color: aqua;
-        }
-        
-        #left {
-            width: 90px;
-            height: 870px;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-        }
-        
-        #left_above {
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-        
-        #below {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        }
-        
-        .item {
-            width: 32px;
-            margin-top: 50px;
-        }
-        
-        #setting {
-            margin-top: 36px;
-        }
-        
-        #center {
-            width: 910px;
-            display: flex;
-            flex-direction: column;
-        }
-        
-        #title {
-            display: flex;
-            justify-content: space-between;
-            width: 850px;
-        }
-        
-        #clock {
-            display: flex;
-            height: 60px;
-        }
-        
-        #btnInternal {
-            height: 40px;
-            width: 90px;
-            border-radius: 20px;
-            background-color: palevioletred;
-        }
-        
-        #datetime {
-            display: flex;
-            flex-direction: row;
-        }
-        
-        #leftdate {
-            width: 360px;
-            height: 60px;
-            display: flex;
-            justify-content: space-around;
-        }
-        
-        #imgCenter {
-            display: flex;
-        }
-        
-        #imgbig {
-            display: flex;
-            width: 834px;
-            height: 460px;
-        }
-        
-        #big {
-            position: absolute;
-            width: 200px;
-            height: 50px;
-            margin-top: 10px;
-            margin-left: 40px;
-        }
-        
-        #micRed {
-            position: absolute;
-            margin-left: 780px;
-            margin-top: 10px;
-        }
-        
-        #threeimg {
-            display: flex;
-            justify-content: space-around;
-            margin-left: -10px;
-            margin-top: 20px;
-            width: 860px;
-        }
-        
-        #imgchris {
-            display: flex;
-            width: 260px;
-            height: 160px;
-        }
-        
-        #imgdebora {
-            display: flex;
-            width: 260px;
-            height: 160px;
-        }
-        
-        #imgjordan {
-            display: flex;
-            width: 260px;
-            height: 160px;
-        }
-        
-        #icon {
-            display: flex;
-            justify-content: space-around;
-            width: 30%;
-        }
-    </style>
+    <title>Meeting</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
 
 <body>
@@ -184,36 +46,141 @@
                 </div>
                 <div id="threeimg">
                     <div id="imgleft">
-                        <img id="imgchris" src="img/img2.png" style="border-radius: 10px; alt=">
+                        <img id="imgchris" src="img/img2.png" alt=" " style="border-radius: 10px;">
+                        <img style="position: absolute;margin-left: 210px;margin-top: -150px;width: 40px;" src="img/mic_grey_color.png" alt="">
+                        <img style="position: absolute;margin-left: 9px;margin-top: -140px;width: 100px;" src="img/christan.PNG" alt="">
+
                     </div>
-                    <div id="imgbottom ">
-                        <img id="imgdebora" src="img/img1.png " style="border-radius: 10px; alt=" ">
+                    <div id=" imgbottom ">
+                        <img id="imgdebora " src="img/img1.png " style="border-radius: 10px;" alt=" ">
+                        <img style="position: absolute;margin-left: -60px;margin-top: 10px;width: 40px;" src="img/mic_grey_color.png" alt="">
+                        <img style="position: absolute;margin-left: -250px;margin-top: 10px;width: 100px;" src="img/debora.PNG" alt="">
+
                     </div>
                     <div id="imgright ">
-                        <img id="imgjordan " src="img/img.png " style="border-radius: 10px; alt=" ">
+                        <img id="imgjordan " src="img/img.png " style="border-radius: 10px;" alt=" ">
+                        <img style="position: absolute;margin-left: -60px;margin-top: 10px;width: 40px;" src="img/mic_grey_color.png" alt="">
+                        <img style="position: absolute;margin-left: -250px;margin-top: 10px;width: 100px;" src="img/jordan.PNG" alt="">
                     </div>
                 </div>
-                <div id="icon">
-                    <img src="img/mic_grey_color.png" alt="">
-                    <img src="img/cam_color.png" alt="">
-                    <img src="img/speaker_grey_color.png" alt="">
-                    <div id="end"><button style="background-color: red;">End meeting</button></div>
+                <div id="icon ">
+                    <div style="position: absolute; margin-left: 200px;margin-top: 15px;">
+                        <img src="img/mic_grey_color.png " alt=" ">
+                        <img src="img/cam_color.png " alt=" ">
+                        <img src="img/speaker_grey_color.png " alt=" ">
+                    </div>
+                    <div style="display: flex; position: absolute;margin-left: 350px;margin-top: 15px;">
+                        <button style="background-color: red;height:45px ;border-radius: 5px;border: 0px;">End meeting</button>
+                    </div>
+                    <div style="position: absolute;margin-left: 445px;margin-top: 15px;">
+                        <img src="img/Button 2179.png" alt="">
+                        <img src="img/share.png" alt="">
+                        <img style="width: 42px;" src="img/3 cham end.png" alt="">
+                    </div>
                 </div>
             </div>
         </div>
+        <div id="right ">
+            <div id="topRight">
+                <div style="display: flex;justify-content: space-between;">
+                    <h1>Participants</h1>
+                    <button style="display: flex;justify-content: center;align-items: center; width: 70px;height: 40px; margin-top: 20px;margin-right: 100px;
+                    border-radius: 6px;border-color: palevioletred;color: palevioletred;">+Add</button>
+                </div>
+                <div style="display: flex;justify-content: space-around;width: 400px;">
+                    <div style="display: flex;justify-content: space-around;width: 40%;margin-left:-80px;">
+                        <img style="width: 40px;height: 40px" src="img/avatar 1322.png" alt="">
+                        <p>Benja Craford</p>
+                    </div>
+                    <div style="display: flex;margin-top: 20px;">
+                        <img style="width: 20px;height: 20px;" src="img/mic1.png" alt="">
+                        <img style="width: 20px;height: 20px;" src="img/cam_small.png" alt="">
+                        <img style="width: 20px;height: 20px;" src="img/3cham.png" alt="">
+                    </div>
+                </div>
+                <div style="display: flex;justify-content: space-around;width: 400px;">
+                    <div style="display: flex;justify-content: space-around;width: 40%;margin-left:-80px;">
+                        <img style="width: 40px;height: 40px" src="img/avatar 1323.png" alt="">
+                        <p>Christan Scott</p>
+                    </div>
+                    <div style="display: flex;margin-top: 20px;">
+                        <img style="width: 20px;height: 20px;" src="img/mic1.png" alt="">
+                        <img style="width: 20px;height: 20px;" src="img/cam_small.png" alt="">
+                        <img style="width: 20px;height: 20px;" src="img/3cham.png" alt="">
+                    </div>
+                </div>
+                <div style="display: flex;justify-content: space-around;width: 400px;">
+                    <div style="display: flex;justify-content: space-around;width: 40%;margin-left:-80px;">
+                        <img style="width: 40px;height: 40px" src="img/avatar 1324.png" alt="">
+                        <p>Deborah Chu</p>
+                    </div>
+                    <div style="display: flex;margin-top: 20px;">
+                        <img style="width: 20px;height: 20px;" src="img/mic1.png" alt="">
+                        <img style="width: 20px;height: 20px;" src="img/cam_small.png" alt="">
+                        <img style="width: 20px;height: 20px;" src="img/3cham.png" alt="">
+                    </div>
+                </div>
+                <div style="display: flex;justify-content: space-around;width: 400px;">
+                    <div style="display: flex;justify-content: space-around;width: 40%;margin-left:-80px;">
+                        <img style="width: 40px;height: 40px" src="img/avatar 1325.png" alt="">
+                        <p>Jordan Nieves</p>
+                    </div>
+                    <div style="display: flex;margin-top: 20px;">
+                        <img style="width: 20px;height: 20px;" src="img/mic1.png" alt="">
+                        <img style="width: 20px;height: 20px;" src="img/cam_small.png" alt="">
+                        <img style="width: 20px;height: 20px;" src="img/3cham.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div id="chatRight">
+                <h1><b>Chat</b></h1>
+                <div class="detailChat">
+                    <img style="width: 40px;height: 40px;" src="img/avatar 1324.png" alt="">
+                    <p style="display: flex;margin-top: 14px;"><b>Deborah Chu </b></p>
+                    <p style="display: flex;"><sup>1:12PM</sup></p>
+                </div>
+                <div>
+                    <p style="display: flex;align-items: center;justify-content: center; width: 350px; margin-left:50px ;background-color: ghostwhite;height: 70px;margin-top: -10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam facere sit voluptatibus </p>
+                </div>
 
+                <div class="detailChat">
+                    <img style="width: 40px;height: 40px;" src="img/avatar 1325.png" alt="">
+                    <p style="display: flex;margin-top: 14px;"><b>Jordan Nieves</b></p>
+                    <p style="display: flex;"><sup>1:12PM</sup></p>
+                </div>
+                <div>
+                    <p style="display: flex;align-items: center;justify-content: center; width: 350px; margin-left:50px ;background-color: ghostwhite;height: 70px; margin-top: -10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam facere sit voluptatibus </p>
+                </div>
 
+                <div class="detailChat">
+                    <img style="width: 40px;height: 40px;" src="img/avatar 1322.png" alt="">
+                    <p style="display: flex;margin-top: 14px;"><b>Bejamin Craw </b></p>
+                    <p style="display: flex;"><sup>1:12PM</sup></p>
+                </div>
+                <div>
+                    <img style="display: flex;align-items: center;justify-content: center; width: 110px; margin-left:50px ;background-color: ghostwhite;height: 60px;margin-top: -10px;" src="img/iconchat.png" alt="">
+                </div>
+                <div class="detailChat">
+                    <img style="width: 40px;height: 40px;" src="img/avatar 1323.png" alt="">
+                    <p style="display: flex;margin-top: 14px;"><b>Christan Scott</b></p>
+                    <p style="display: flex;"><sup>1:12PM</sup></p>
+                </div>
+                <div>
+                    <input style="display: flex;width: 300px;height: 40px;background-color: #EEEEEE;border: 0px;" type="text" placeholder="Add mess" name="" id="">
+                    <input style="position: absolute;width: 70px;height: 40px;margin-left: 35px;margin-top: -35px;background-color:#EEEEEE;border: 0px;" type="text" placeholder="Typing..." name="" id="">
+                    <img style="display: flex;position: absolute;margin-top: -43px;margin-left: 320px;" src="img/send.png" alt="">
+                    <img style="display: flex;position: absolute;margin-top: -38px;margin-left: 260px;border-radius: 100px;" src="img/smileicon.png" alt="">
 
+                </div>
 
+            </div>
 
-
-
-        <div id="right ">right</div>
+        </div>
 
     </div>
 
 
-    </div>
+
 
 </body>
 

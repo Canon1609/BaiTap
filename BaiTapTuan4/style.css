@@ -1,0 +1,161 @@
+#wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+}
+
+#right {
+    width: 1000px;
+    background-color: aqua;
+    display: flex;
+}
+
+#left {
+    width: 90px;
+    height: 870px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: aliceblue;
+}
+
+#left_above {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#below {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.item {
+    width: 32px;
+    margin-top: 50px;
+}
+
+#setting {
+    margin-top: 36px;
+}
+
+#center {
+    width: 910px;
+    display: flex;
+    flex-direction: column;
+}
+
+#title {
+    display: flex;
+    justify-content: space-between;
+    width: 850px;
+}
+
+#clock {
+    display: flex;
+    height: 60px;
+}
+
+#btnInternal {
+    height: 40px;
+    width: 90px;
+    border-radius: 20px;
+    background-color: palevioletred;
+}
+
+#datetime {
+    display: flex;
+    flex-direction: row;
+}
+
+#leftdate {
+    width: 360px;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#imgCenter {
+    display: flex;
+}
+
+#imgbig {
+    display: flex;
+    width: 834px;
+    height: 460px;
+}
+
+#big {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+#micRed {
+    position: absolute;
+    margin-left: 780px;
+    margin-top: 10px;
+}
+
+#threeimg {
+    display: flex;
+    justify-content: space-around;
+    margin-left: -10px;
+    margin-top: 20px;
+    width: 860px;
+}
+
+#imgchris {
+    display: flex;
+    width: 260px;
+    height: 160px;
+}
+
+#imgdebora {
+    display: flex;
+    width: 260px;
+    height: 160px;
+}
+
+#imgjordan {
+    display: flex;
+    width: 260px;
+    height: 160px;
+}
+
+#icon {
+    display: flex;
+    justify-content: space-between;
+    background-color: aquamarine;
+}
+
+#topRight {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 35%;
+    justify-content: space-around;
+}
+
+.detailChat {
+    display: flex;
+    justify-content: space-around;
+    width: 210px;
+}
+
+#chatRight {
+    display: flex;
+    height: 500px;
+    flex-direction: column;
+    margin-left: -10px;
+}
