@@ -1,0 +1,9 @@
+.banner-img {
+    width: 100%;
+    object-fit: cover;
+}
+
+footer {
+    margin-top: 100px;
+    text-align: center;
+}
