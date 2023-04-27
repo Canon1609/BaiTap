@@ -17,7 +17,7 @@ function checkMaBenhNhan() {
 }
 
 // Check mật khẩu
-function checkMatKhau(){
+function checkMatKhau() {
     const matKhau = $("#matkhau").val();
     if (!matKhau) {
         $(".mk-mes").html("Không được để trống");
@@ -55,7 +55,8 @@ $("#matkhau").blur(checkMatKhau);
 $("#ngaykham").blur(checkNgayKham);
 
 $("#form").submit((e) => e.preventDefault());
-function themMoi(){
+
+function themMoi() {
     const ma = $("#mabenhnhan").val();
     const matKhau = $("#matkhau").val();
     const ngayKham = $("#ngaykham").val();
@@ -81,7 +82,8 @@ function themMoi(){
 
     $("#tbody").append(addNew);
 }
-function reSet(){
+
+function reSet() {
     $("#mabenhnhan").val("");
     $("#matkhau").val("");
     $("#ngayKham").val("");
@@ -89,7 +91,7 @@ function reSet(){
     $("#modal").modal("hide");
 }
 
-$("#btn-submit").click(()=>{
+$("#btn-submit").click(() => {
     const ma = checkMaBenhNhan();
     const mk = checkMatKhau();
     const nk = checkNgayKham();
@@ -107,11 +109,4 @@ $("#btn-submit").click(()=>{
 
 $("#open-modal").click(() => {
     $("#modal").modal("show");
-  });
-
-
-
-
-
-
-
+});
